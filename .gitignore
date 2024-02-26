@@ -1,0 +1,37 @@
+# Dependency directories
+node_modules/
+
+# Environment variables file
+.env
+
+# Logs
+logs
+*.log
+
+# Runtime data such as databases
+db.sqlite
+*.sqlite
+
+# Build output
+build/
+dist/
+out/
+target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# Package-lock.json
+package-lock.json
+
+# Mac specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
