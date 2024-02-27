@@ -1,5 +1,9 @@
+#!user/bin/env node
+import chalk from 'chalk';
+import clipboardy from 'clipboardy';
 import { program } from 'commander';
 import createPassword from './utils/createPassword.js';
+import savePassword from './utils/savePassword.js';
 
 const log = console.log;
 
@@ -14,8 +18,18 @@ program
 
 const { length, save, numbers, symbols } = program.opts();
 
-//what is=> Generated password gets stored in generatedPassword variable
+//? Generated password gets stored in generatedPassword variable
 
 const generatedPassword = createPassword(length, numbers, symbols);
 
-log(numbers, symbols);
+//? saves the new password to file
+
+if (save) {
+  savePassword();
+}
+
+//* saves to clipboard
+clipboardy.writeSync(generatedPassword);
+
+log(chalk.blue('New Password: ') + chalk.bold(generatedPassword));
+log(chalk.yellow('New Password copied to clipboard'));
