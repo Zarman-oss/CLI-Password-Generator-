@@ -15,6 +15,21 @@ SpitPass is a command-line interface (CLI) Node.js application designed to make 
 - **Clipboard Integration**: Automatically copies the generated password to your clipboard for seamless use.
 - **No External Dependencies**: SpitPass is a standalone application with no need for external libraries or dependencies.
 
+## Features
+
+- **Fast Password Generation**: Quickly generate strong passwords with a simple command.
+- **Customizable Options**: Tailor your passwords with various options like length, including special characters, and more.
+- **Clipboard Integration**: Automatically copies the generated password to your clipboard for seamless use.
+- **No External Dependencies**: SpitPass is a standalone application with no need for external libraries or dependencies.
+
+## Usage
+
+Simply open any terminal on your machine and use the following command to generate a strong 16-digit password:
+
+```bash
+spitpass
+
+
 ## Installation
 
 Make sure you have Node.js installed on your machine. Then, install SpitPass globally using npm:
