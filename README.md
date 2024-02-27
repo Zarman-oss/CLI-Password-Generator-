@@ -2,6 +2,8 @@
 
 ![SpitPass Logo](link-to-your-logo.png)
 
+![image](https://github.com/Zarman-oss/spitpass/assets/123334173/b12cb235-7368-4075-b959-2eba217e0484)
+ 
 ## Overview
 
 SpitPass is a command-line interface (CLI) Node.js application designed to make password generation quick, easy, and secure. No more navigating through websites or using insecure passwords. SpitPass generates strong passwords and conveniently saves them to your clipboard for instant use.
