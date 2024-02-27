@@ -1,5 +1,6 @@
-import chalk from 'chalk';
+#!/usr/bin/env node
 import clipboardy from 'clipboardy';
+import chalk from 'chalk';
 import { program } from 'commander';
 import createPassword from './utils/createPassword.js';
 import savePassword from './utils/savePassword.js';
