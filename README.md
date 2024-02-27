@@ -1,6 +1,6 @@
 # SpitPass - CLI Password Generator
 
-![SpitPass Logo](link-to-your-logo.png)
+
 
 ![image](https://github.com/Zarman-oss/spitpass/assets/123334173/b12cb235-7368-4075-b959-2eba217e0484)
  
