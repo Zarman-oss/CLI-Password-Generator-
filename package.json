@@ -1,9 +1,9 @@
 {
-  "name": "SpitPass",
+  "name": "spitpass",
   "version": "1.0.0",
-  "description": "",
-  "type": "module",
+  "description": "app to generate passwords",
   "main": "index.js",
+  "type": "module",
   "preferGlobal": true,
   "bin": "./index.js",
   "scripts": {

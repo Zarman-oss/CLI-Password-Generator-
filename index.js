@@ -1,4 +1,3 @@
-#!user/bin/env node
 import chalk from 'chalk';
 import clipboardy from 'clipboardy';
 import { program } from 'commander';
