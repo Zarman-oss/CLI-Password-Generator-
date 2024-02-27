@@ -2,7 +2,7 @@
 
 
 
-![image](https://github.com/Zarman-oss/spitpass/assets/123334173/b12cb235-7368-4075-b959-2eba217e0484)
+![image](https://github.com/Zarman-oss/spitpass/assets/123334173/50233def-8dbd-4565-855b-6eeb6a792529)
  
 ## Overview
 
