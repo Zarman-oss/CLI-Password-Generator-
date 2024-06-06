@@ -10,7 +10,7 @@ const generatePassword = (length, chars) => {
   return password;
 };
 
-const createPassword = (length = 10, hasNumbers = true, hasSymbol = true) => {
+const createPassword = (length = 8, hasNumbers = true, hasSymbol = true) => {
   let chars = alpha;
   hasNumbers ? (chars += numbers) : '';
   hasSymbol ? (chars += symbols) : '';
